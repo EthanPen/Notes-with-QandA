@@ -1,5 +1,7 @@
 [TOC]
 
+### Daily Notes
+
 ##### MIT, Introduction to Linear Algebra
 
 ##### Segementing motion capture data...
@@ -26,7 +28,27 @@
 - [ ] 3Blue1brown's linear algebra
 
 
-#### 模式识别作业
+
+
+
+
+#### 2017-12-05
+
+[How to open a directory/folder and a URL through Terminal](https://askubuntu.com/questions/17062/how-to-open-a-directory-folder-and-a-url-through-terminal)
+
+> // open a directory on Ubuntu
+>
+> ~$ nautilus  /path/to/that/folder
+>
+> // to open URL
+>
+> ~$ google-chrome  https://google.com    
+
+[something with Git sync](https://www.cnblogs.com/yujihang/p/6601984.html)
+
+>将仓库中的改动同步到本地, 在git-bash中进入项目目录下, 使用git pull命令
+
+
 
 
 
@@ -35,8 +57,6 @@
 这中间一个月真是坑自己，二建笑话。
 
 外刊发现最后被坑100块。
-
-
 
 
 #### 2017-04-27
