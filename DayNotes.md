@@ -30,6 +30,16 @@
 
 
 
+#### 2017-12-10
+
+[本地git仓库同步到github远程仓库](http://www.voidcn.com/article/p-dlgvojje-kd.html)
+
+```bash
+~$ git push origin master
+```
+
+
+
 
 
 #### 2017-12-05
