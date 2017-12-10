@@ -38,6 +38,68 @@
 ~$ git push origin master
 ```
 
+##### [How To Install the Anaconda Python Distribution on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04)
+
+```bash
+# create an environment
+~$ conda create --name my_env python=3
+# remove an environment
+~$ conda remove --name my_env --all
+```
+
+##### [How to get the cuda version?](https://stackoverflow.com/questions/9727688/how-to-get-the-cuda-version)
+
+
+
+##### [How can I install CuDNN on Ubuntu 16.04?](https://askubuntu.com/questions/767269/how-can-i-install-cudnn-on-ubuntu-16-04)
+
+
+
+##### [cuDNN Installation Guide](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#axzz4qYJp45J2)
+
+[2.3.1. Installing from a Tar File](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#installlinux-tar)
+
+1. Navigate to your <cudnnpath> directory containing the cuDNN Tar file.
+2. Unzip the cuDNN package.`$ tar -xzvf cudnn-9.0-linux-x64-v7.tgz`
+3. Copy the following files into the CUDA Toolkit directory.`$ sudo cp cuda/include/cudnn.h /usr/local/cuda/include$ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64$ sudo chmod a+r /usr/local/cuda/include/cudnn.h/usr/local/cuda/lib64/libcudnn*`
+
+
+
+##### [Linux / Unix: Use Cat Command To Append Data To a File](https://www.cyberciti.biz/faq/unix-linux-cat-append-text-to-a-file/)
+
+``` bash
+~$ cat file1 >> file2 
+~$ echo "text to append" >> file2
+~$ printf "text to append\n" >> fileName
+```
+
+Create a text file called foo.txt, type:
+
+```bash
+cat > foo.txt
+This is a test.
+I like Unix operating systems.
+```
+
+To save the changes press CTRL-d i.e. press and hold CTRL and press d. Create another text file called bar.txt as follows:
+
+```bash
+echo 'For desktop usage I prefer Apple OS X unix operating systems.' > bar.txt
+```
+
+
+
+##### autojump activation
+
+```bash
+~$ cat .bashrc
+~$ sudo echo ". /usr/share/autojump/autojump.sh" >> .bashrc
+~$ cat .bashrc
+~$ source .bashrc
+```
+
+
+
 
 
 
